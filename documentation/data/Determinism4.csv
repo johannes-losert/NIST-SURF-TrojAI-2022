@@ -1,0 +1,17 @@
+round,node,cpus,driver,team,model,1,2,3
+round4,charlie,10,default,id-0,ARM-UMBC,0.5507199764251709,0.47256019711494446,0.43546953797340393,
+round4,charlie,10,default,id-0,Cassandra-XF,,
+round4,charlie,10,default,id-0,DRAFFT,0.2149081975221634,0.2149081975221634,0.2149081975221634,
+round4,charlie,10,default,id-0,Hector,,
+round4,charlie,10,default,id-0,IceTorch,,
+round4,charlie,10,default,id-0,ICSI,,
+round4,charlie,10,default,id-0,ICSI-UMD,0.95,0.95,0.95,
+round4,charlie,10,default,id-0,NIST-baseline,,
+round4,charlie,10,default,id-0,NSEC,,
+round4,charlie,10,default,id-0,Perspecta,,
+round4,charlie,10,default,id-0,Perspecta-IUB,0.5666666666666667,0.5666666666666667,0.5666666666666667
+round4,charlie,10,default,id-0,Perspecta-PurdueRutgers,0.2,0.2,0.2
+round4,charlie,10,default,id-0,PL-GIFT,,
+round4,charlie,10,default,id-0,TrinitySRITrojAI,,
+round4,charlie,10,default,id-0,TrinitySRITrojAI-SBU,,
+round4,charlie,10,default,id-0,trojaicy,,

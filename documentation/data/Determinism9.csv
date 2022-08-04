@@ -1,0 +1,13 @@
+round,node,cpus,driver,team,model,1,2,3
+round9,charlie,10,default,ARM-UCSD,id-0,1,1,1,
+round9,charlie,10,default,ICSI-1,id-0,,,
+round9,charlie,10,default,ICSI-2,id-0,0.5865290053371768,0.547174244121703,0.8068290294800751,
+round9,charlie,10,default,ICSI-UMD,id-0,0.6309685299222515,0.6309685299222515,0.6309685299222515,
+round9,charlie,10,default,Perspecta,id-0,,,
+round9,charlie,10,default,Perspecta-IUB,id-0,0.7442245118417804,0.7442239324825036,0.6933758283432648,
+round9,charlie,10,default,Perspecta-PurdueRutgers,id-0,0.931,0.931,
+round9,charlie,10,default,PL-GIFT,id-0,0.9166231137103711,0.9705316028152555,0.99,
+round9,charlie,10,default,TrinitySRITrojAI,id-0,0.8789681196212769,0.8789681196212769,0.8789681196212769,
+round9,charlie,10,default,TrinitySRITrojAI-BostonU,id-0,0.5209729671478271,0.5298190712928772,0.530158519744873,
+round9,charlie,10,default,TrinitySRITrojAI-SBU,id-0,0.8881816267967224,0.9621728658676147,0.882990837097168,
+round9,charlie,10,default,trojai-example,id-0,0.5455298711058075,0.3273530223980118,0.13566615298368068,
