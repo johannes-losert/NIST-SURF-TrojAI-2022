@@ -1,0 +1,6 @@
+code dependencies: 
+
+anytree - https://pypi.org/project/anytree/
+numpy 
+pytorch
+pandas 

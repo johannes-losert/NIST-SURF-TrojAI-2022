@@ -1,0 +1,35 @@
+# Some comments on launching the singularity containers the example below is a round 10 container. You might need different/fewer parameters 
+
+
+singularity run \
+
+
+# bind to AI model 
+--bind /full/path/to/trojai-example \
+
+# support for nvidia hardware 
+--nv 
+
+\
+./example_trojan_detector.simg \
+
+# ./ refers to a file/directory within the container (either included by default or "added" with a bind)
+
+# these directories have been bound to the container, meaning they can be referenced with ./
+--model_filepath=./model/trojai-example-model-round10/model.pt \
+--examples_dirpath=./model/trojai-example-model-round10/clean-example-data/ \
+
+
+# make sure to clear the scratch directory after each run/make a new one for each run 
+--scratch_dirpath=./scratch/ \
+
+# I'd recommend to use absolute file paths 
+--source_dataset_dirpath=/path/to/source/dataset/ \
+--round_training_dataset_dirpath=/path/to/training/dataset/ \
+--features_filepath=./features.csv \
+--result_filepath=./output.txt \
+
+# parameters below are inside the container 
+--metaparameters_filepath=./metaparameters.json \
+--schema_filepath=./metaparameters_schema.json \
+--learned_parameters_dirpath=./new_learned_parameters/
